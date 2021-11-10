@@ -1,6 +1,6 @@
 public class PrimalityTest {
     public static String function(int x) {
-        for (int i = 3; i <= x-1; i = i + 1) {
+        for (int i = 3; i <= x - 1; i = i + 1) {
             if (x % i == 0) {
                 String s = "Число непростое";
                 return s;

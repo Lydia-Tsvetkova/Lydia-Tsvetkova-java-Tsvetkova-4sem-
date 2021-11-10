@@ -7,8 +7,8 @@ public class IntroTask3Digits {
         if (x / 100 > 0 & x / 100 < 9) {
             System.out.println("Число содержит ровно 3 цифры");
         } else {
-                System.out.println("Число не содержит ровно 3 цифры");
-            }
-            in.close();
+            System.out.println("Число не содержит ровно 3 цифры");
         }
+        in.close();
     }
+}
