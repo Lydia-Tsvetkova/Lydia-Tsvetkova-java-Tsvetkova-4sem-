@@ -1,3 +1,5 @@
+package homework;
+
 public class PrimalityTest {
     public static String function(int x) {
         for (int i = 3; i <= x - 1; i = i + 1) {

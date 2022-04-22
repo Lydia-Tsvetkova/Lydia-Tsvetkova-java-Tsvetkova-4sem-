@@ -1,3 +1,5 @@
+package homework;
+
 import java.util.Scanner;
 
 public class IntroTask3Digits {

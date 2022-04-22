@@ -1,10 +1,24 @@
 package ru.spbu.arts.java.oop.time;
 
 public class ExperimentsWithTime {
-    public static void main(int args) {
+    public static void main(String[] args) {
         Time time1 = new Time();
-        time1.mins = 120;
+        time1.mins = 20;
         time1.hours = 5;
-        System.out.println(time1.hours + ':' + time1.mins);
+        time1.show();
+        time1.sayHello();
+        time1.add(120);
+        time1.show();
+        time1.add(1320);
+        time1.show();
+        time1.add(600);
+        time1.show();
+        time1.sayHello();
+        time1.add(320);
+        time1.show();
+        time1.sayHello();
+        time1.add(320);
+        time1.show();
+        time1.sayHello();
     }
 }

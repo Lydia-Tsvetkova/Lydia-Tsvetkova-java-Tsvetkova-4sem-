@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Iterator;
+package homework;
 
 public class Matrix22 {
 
